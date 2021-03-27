@@ -37,6 +37,14 @@ export FLASK_APP=platzi-api
 export FLASK_ENV=development 
 export PLATZI_DB_URI="MONGO-URI"
 ```
+Si se esta en Windowsz para poner variables de entorno es
+```
+$env:FLASK_APP=platzi-api
+$env:FLASK_ENV=development 
+$env:PLATZI_DB_URI="MONGO-URI"
+```
+Reemplazar MONGO-URI por la URI de MongoDB atlas en el siguiente formato:
+mongodb+srv://<TU-USUARIO>:<TU-CONTRASEÑA>@<TU-ATLAS-URI>
 
 ## Iniciar el servidor de platzi-mongo
 ```
